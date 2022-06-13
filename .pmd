@@ -261,6 +261,22 @@
             <name>ConstantsInInterface</name>
             <ruleset>Best Practices</ruleset>
         </rule>
+        <rule>
+            <name>BeanMembersShouldSerialize</name>
+            <ruleset>Error Prone</ruleset>
+        </rule>
+        <rule>
+            <name>ClassNamingConventions</name>
+            <ruleset>Code Style</ruleset>
+        </rule>
+        <rule>
+            <name>UseLocaleWithCaseConversions</name>
+            <ruleset>Error Prone</ruleset>
+        </rule>
+        <rule>
+            <name>CommentRequired</name>
+            <ruleset>Documentation</ruleset>
+        </rule>
     </rules>
     <includeDerivedFiles>false</includeDerivedFiles>
     <violationsAsErrors>true</violationsAsErrors>
