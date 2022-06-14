@@ -1,8 +1,0 @@
-src/main/java/labcodeinspection/Email.java:15:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/main/java/labcodeinspection/Email.java:15:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/main/java/labcodeinspection/Email.java:16:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/main/java/labcodeinspection/Email.java:16:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/main/java/labcodeinspection/EmailApp.java:4:	UseUtilityClass:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
-src/main/java/labcodeinspection/EmailApp.java:4:	UseUtilityClass:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
-src/main/java/labcodeinspection/EmailApp.java:6:	CommentRequired:	CommentRequired: Public method and constructor comments are required
-src/main/java/labcodeinspection/EmailApp.java:6:	CommentRequired:	CommentRequired: Public method and constructor comments are required
