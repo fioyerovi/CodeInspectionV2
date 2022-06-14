@@ -8,10 +8,10 @@ import java.util.Locale;
  */
 public class Email {
 
-	private final String m_firstName;
-	private final String m_lastName;
-	private String password;
-	private String department;
+	private transient final String m_firstName;
+	private transient final String m_lastName;
+	private transient String password;
+	private transient String department;
 	private int defaultpasswordLength = 8;
 	private String email;
 
