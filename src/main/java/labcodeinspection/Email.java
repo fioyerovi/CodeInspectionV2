@@ -12,8 +12,8 @@ public class Email {
 	private transient final String m_lastName;
 	private transient String password;
 	private transient String department;
-	private int defaultpasswordLength = 8;
-	private String email;
+	private static final int defaultpasswordLength = 8;
+	private transient String email;
 
 	/**
 	 * @param firstName

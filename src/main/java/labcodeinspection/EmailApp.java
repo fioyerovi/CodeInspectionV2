@@ -1,8 +1,17 @@
 package labcodeinspection;
 
 import java.util.Scanner;
-public class EmailApp {
-	
+/**
+* 
+* Clase principal
+* @author T4
+*/
+public class EmailApp { //NOPMD
+	/**
+	* 
+	* Main del proyecto
+	* @author T4
+	*/
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
