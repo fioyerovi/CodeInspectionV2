@@ -1,9 +1,11 @@
 package labcodeinspection;
 
+import java.util.Locale;
+
 public class Email {
 
-	private String m_firstName;
-	private String m_lastName;
+	private final String m_firstName;
+	private final String m_lastName;
 	private String password = null;
 	private String department;
 	private int defaultpasswordLength = 8;
@@ -45,7 +47,7 @@ public class Email {
 
 	public void generateEmail() {
 		this.password = this.randomPassword(this.defaultpasswordLength);
-		this.email = this.m_firstName.toLowerCase() + this.m_lastName.toLowerCase() + "@" + this.department
+		this.email = this.m_firstName.toLowerCase(Locale.getDefault()) + this.m_lastName.toLowerCase(Locale.getDefault()) + "@" + this.department
 				+ ".espol.edu.ec";
 	}
 }
