@@ -11,16 +11,26 @@ public class Email {
 	private int defaultpasswordLength = 8;
 	private String email;
 
+	/**
+	 * @param firstName
+	 * @param lastName
+	 */
 	public Email(String firstName, String lastName) {
 		this.m_firstName = firstName;
 		this.m_lastName = lastName;
 	}
-
+	
+	/**
+	 * 
+	 */
 	public void showInfo() {
 		System.out.println("\nFIRST NAME= " + m_firstName + "\nLAST NAME= " + m_lastName);
 		System.out.println("DEPARMENT= " + department + "\nEMAIL= " + email + "\nPASSWORD= " + password);
 	}
 
+	/**
+	 * @param depChoice
+	 */
 	public void setDeparment(int depChoice) {
 		switch (depChoice) {
 		case 1:
