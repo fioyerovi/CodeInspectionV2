@@ -6,11 +6,67 @@
     <includePatterns/>
     <rules>
         <rule>
+            <name>CheckResultSet</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>OptimizableToArrayCall</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>UselessStringValueOf</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>StringToString</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>WhileLoopWithLiteralBoolean</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>BeanMembersShouldSerialize</name>
+            <ruleset>Error Prone</ruleset>
+        </rule>
+        <rule>
+            <name>UseTryWithResources</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>ImmutableField</name>
+            <ruleset>Design</ruleset>
+        </rule>
+        <rule>
             <name>ReplaceHashtableWithMap</name>
             <ruleset>Best Practices</ruleset>
         </rule>
         <rule>
+            <name>UseUtilityClass</name>
+            <ruleset>Design</ruleset>
+        </rule>
+        <rule>
+            <name>TooFewBranchesForASwitchStatement</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>JUnitTestContainsTooManyAsserts</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>UnusedPrivateMethod</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
             <name>UseStringBufferLength</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>JUnit4SuitesShouldUseSuiteAnnotation</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>InefficientEmptyStringCheck</name>
             <ruleset>Performance</ruleset>
         </rule>
         <rule>
@@ -22,16 +78,140 @@
             <ruleset>Best Practices</ruleset>
         </rule>
         <rule>
+            <name>AddEmptyString</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>AppendCharacterWithChar</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>BigIntegerInstantiation</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>UseLocaleWithCaseConversions</name>
+            <ruleset>Error Prone</ruleset>
+        </rule>
+        <rule>
+            <name>RedundantFieldInitializer</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>AccessorMethodGeneration</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
             <name>DoubleBraceInitialization</name>
             <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>DefaultLabelNotLastInSwitchStmt</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidPrintStackTrace</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>ForLoopVariableCount</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>UseIndexOfChar</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidMessageDigestField</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>UseCollectionIsEmpty</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>AbstractClassWithoutAbstractMethod</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>MethodReturnsInternalArray</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>LooseCoupling</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>InsufficientStringBufferDeclaration</name>
+            <ruleset>Performance</ruleset>
         </rule>
         <rule>
             <name>AvoidInstantiatingObjectsInLoops</name>
             <ruleset>Performance</ruleset>
         </rule>
         <rule>
+            <name>CommentRequired</name>
+            <ruleset>Documentation</ruleset>
+        </rule>
+        <rule>
+            <name>JUnit4TestShouldUseBeforeAnnotation</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>MissingOverride</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>GuardLogStatement</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
             <name>AvoidUsingHardCodedIP</name>
             <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>ForLoopCanBeForeach</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>JUnit4TestShouldUseTestAnnotation</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>JUnit4TestShouldUseAfterAnnotation</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>PreserveStackTrace</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidReassigningLoopVariables</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>SwitchStmtsShouldHaveDefault</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>UnusedFormalParameter</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>UseArraysAsList</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>UseVarargs</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidArrayLoops</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
+            <name>ConsecutiveAppendsShouldReuse</name>
+            <ruleset>Performance</ruleset>
         </rule>
         <rule>
             <name>StringInstantiation</name>
@@ -46,131 +226,15 @@
             <ruleset>Best Practices</ruleset>
         </rule>
         <rule>
-            <name>ReplaceVectorWithList</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>AvoidFileStream</name>
-            <ruleset>Performance</ruleset>
-        </rule>
-        <rule>
-            <name>OptimizableToArrayCall</name>
-            <ruleset>Performance</ruleset>
-        </rule>
-        <rule>
-            <name>ImmutableField</name>
-            <ruleset>Design</ruleset>
-        </rule>
-        <rule>
-            <name>UseUtilityClass</name>
-            <ruleset>Design</ruleset>
-        </rule>
-        <rule>
-            <name>InefficientEmptyStringCheck</name>
-            <ruleset>Performance</ruleset>
-        </rule>
-        <rule>
-            <name>AppendCharacterWithChar</name>
-            <ruleset>Performance</ruleset>
-        </rule>
-        <rule>
-            <name>AvoidMessageDigestField</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>LooseCoupling</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>GuardLogStatement</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>JUnit4TestShouldUseTestAnnotation</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>PreserveStackTrace</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>SwitchStmtsShouldHaveDefault</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>AvoidArrayLoops</name>
-            <ruleset>Performance</ruleset>
-        </rule>
-        <rule>
             <name>ConsecutiveLiteralAppends</name>
             <ruleset>Performance</ruleset>
         </rule>
         <rule>
-            <name>ArrayIsStoredDirectly</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>AvoidStringBufferField</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>UselessStringValueOf</name>
+            <name>UseArrayListInsteadOfVector</name>
             <ruleset>Performance</ruleset>
         </rule>
         <rule>
-            <name>WhileLoopWithLiteralBoolean</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>UseTryWithResources</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>JUnitTestContainsTooManyAsserts</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>AccessorMethodGeneration</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>DefaultLabelNotLastInSwitchStmt</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>AvoidPrintStackTrace</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>UseIndexOfChar</name>
-            <ruleset>Performance</ruleset>
-        </rule>
-        <rule>
-            <name>UseCollectionIsEmpty</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>MethodReturnsInternalArray</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>JUnit4TestShouldUseBeforeAnnotation</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>ForLoopCanBeForeach</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>JUnit4TestShouldUseAfterAnnotation</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>AvoidReassigningLoopVariables</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>UseVarargs</name>
+            <name>AvoidReassigningParameters</name>
             <ruleset>Best Practices</ruleset>
         </rule>
         <rule>
@@ -186,75 +250,19 @@
             <ruleset>Best Practices</ruleset>
         </rule>
         <rule>
+            <name>ReplaceVectorWithList</name>
+            <ruleset>Best Practices</ruleset>
+        </rule>
+        <rule>
+            <name>AvoidFileStream</name>
+            <ruleset>Performance</ruleset>
+        </rule>
+        <rule>
             <name>AccessorClassGeneration</name>
             <ruleset>Best Practices</ruleset>
         </rule>
         <rule>
-            <name>CheckResultSet</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>StringToString</name>
-            <ruleset>Performance</ruleset>
-        </rule>
-        <rule>
-            <name>TooFewBranchesForASwitchStatement</name>
-            <ruleset>Performance</ruleset>
-        </rule>
-        <rule>
-            <name>UnusedPrivateMethod</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>JUnit4SuitesShouldUseSuiteAnnotation</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>AddEmptyString</name>
-            <ruleset>Performance</ruleset>
-        </rule>
-        <rule>
-            <name>BigIntegerInstantiation</name>
-            <ruleset>Performance</ruleset>
-        </rule>
-        <rule>
-            <name>RedundantFieldInitializer</name>
-            <ruleset>Performance</ruleset>
-        </rule>
-        <rule>
-            <name>ForLoopVariableCount</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>AbstractClassWithoutAbstractMethod</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>InsufficientStringBufferDeclaration</name>
-            <ruleset>Performance</ruleset>
-        </rule>
-        <rule>
-            <name>MissingOverride</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>UnusedFormalParameter</name>
-            <ruleset>Best Practices</ruleset>
-        </rule>
-        <rule>
-            <name>UseArraysAsList</name>
-            <ruleset>Performance</ruleset>
-        </rule>
-        <rule>
-            <name>ConsecutiveAppendsShouldReuse</name>
-            <ruleset>Performance</ruleset>
-        </rule>
-        <rule>
-            <name>UseArrayListInsteadOfVector</name>
-            <ruleset>Performance</ruleset>
-        </rule>
-        <rule>
-            <name>AvoidReassigningParameters</name>
+            <name>ArrayIsStoredDirectly</name>
             <ruleset>Best Practices</ruleset>
         </rule>
         <rule>
@@ -262,20 +270,8 @@
             <ruleset>Best Practices</ruleset>
         </rule>
         <rule>
-            <name>BeanMembersShouldSerialize</name>
-            <ruleset>Error Prone</ruleset>
-        </rule>
-        <rule>
-            <name>ClassNamingConventions</name>
-            <ruleset>Code Style</ruleset>
-        </rule>
-        <rule>
-            <name>UseLocaleWithCaseConversions</name>
-            <ruleset>Error Prone</ruleset>
-        </rule>
-        <rule>
-            <name>CommentRequired</name>
-            <ruleset>Documentation</ruleset>
+            <name>AvoidStringBufferField</name>
+            <ruleset>Best Practices</ruleset>
         </rule>
     </rules>
     <includeDerivedFiles>false</includeDerivedFiles>
