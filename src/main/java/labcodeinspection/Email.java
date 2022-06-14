@@ -2,11 +2,15 @@ package labcodeinspection;
 
 import java.util.Locale;
 
+/**
+ * @author T4
+ *
+ */
 public class Email {
 
 	private final String m_firstName;
 	private final String m_lastName;
-	private String password = null;
+	private String password;
 	private String department;
 	private int defaultpasswordLength = 8;
 	private String email;
@@ -42,6 +46,8 @@ public class Email {
 		case 3:
 			this.department = "acct";
 			break;
+		default:
+			break;
 		}
 	}
 
@@ -54,6 +60,9 @@ public class Email {
 		}
 		return new String(password);
 	}
+/**
+ * Method to generate Email
+ */
 
 	public void generateEmail() {
 		this.password = this.randomPassword(this.defaultpasswordLength);
